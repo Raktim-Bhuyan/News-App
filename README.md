@@ -1,9 +1,10 @@
 # News App
 a website that fetches news using NewsApi and displays the results to the user. 
 
-Here is a demo of how the website looks .
+Here is a video demo of how the website looks.
 
-![news-app](https://github.com/Raktim-Bhuyan/News-App/assets/87324609/6e22f7ac-37c8-443f-b737-a39553da1fb7)
+https://github.com/Raktim-Bhuyan/News-App/assets/87324609/1011f85d-f1ad-4d49-8173-981b3718b8ca
+
 
 ## Note
 Here I have used the developer version of NewsApi.org , so CORS outside of localhost is unable to fetch data , if you want to deploy 
