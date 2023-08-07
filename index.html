@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>News App</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <!-- Navbar -->
     <nav>
       <div class="main-nav container flex">
-        <a href="#" class="company-logo">
+        <a href="#" onclick="reload()" class="company-logo">
           <img src="./assets/news-logo.jpg" alt="company logo" />
         </a>
         <div class="nav-links">
@@ -41,8 +42,13 @@
           </ul>
         </div>
         <div class="search-bar flex">
-          <input type="text" class="news-input" placeholder="eg.cricket" />
-          <button class="search-button">Search</button>
+          <input
+            id="search-text"
+            type="text"
+            class="news-input"
+            placeholder="eg.cricket"
+          />
+          <button id="search-button" class="search-button">Search</button>
         </div>
       </div>
     </nav>
