@@ -11,7 +11,7 @@ it in production , I recommend buying a Business Acount and replace the API Key 
 
 ## References
 
-Special thanks to the following resources for making this project possible
+Special thanks to the following resources for making this project possible:
 <ul>
   <li>https://newsapi.org/docs</li>
   <li>https://www.w3schools.com/css/</li>
